@@ -7,6 +7,8 @@ items purchased from the user and displays the shipping charge.'''
 
 
 def shippingchr(n):
+    '''returns the shipping charges ,10.95 for one and 2.95 each for more items'''
+
     if(n==1):
         fitem = 10.95
         return fitem
